@@ -18,12 +18,18 @@ export default function RootLayout({
 		<html lang="en">
 			<body className="bg-[#FEFEFE] h-screen">
 				<div id="main" className="flex flex-col h-screen">
-					<div id="title">
-						<Link href="news" className="">
+					<div id="titleBar" className="bg-sky-700  text-[#F5F5F5] h-[15%] flex flex-row justify-center space-x-9 text-5xl">
+						<Link href="news" className="my-auto">
 							News
 						</Link>
+
+						<Link href="orientamento" className="my-auto">
+							Orientamento
+						</Link>
 					</div>
-					<div id="content">{children}</div>
+					<div id="content" className="h-[85%] mt-14 text-3xl">
+						{children}
+					</div>
 				</div>
 			</body>
 		</html>
