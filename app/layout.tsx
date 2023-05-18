@@ -23,6 +23,11 @@ export default function RootLayout({
 							News
 						</Link>
 					</div>
+					<div id="title">
+						<Link href="documents" className="">
+							Circolari
+						</Link>
+					</div>
 					<div id="content">{children}</div>
 				</div>
 			</body>

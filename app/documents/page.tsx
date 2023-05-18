@@ -45,7 +45,7 @@ function createDocsLayouts() {
 	div_.style.width = '32%'
 
 	const p = document.createElement('p');
-	const newContent_ = 
+
 
 
 
