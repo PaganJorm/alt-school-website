@@ -26,16 +26,14 @@ export default function RootLayout({
 						<Link href="orientamento" className="my-auto">
 							Orientamento
 						</Link>
+						<Link href="documents" className="">
+							Circolari
+						</Link>
+
 					</div>
 					<div id="content" className="h-[85%] mt-14 text-3xl">
 						{children}
 					</div>
-					<div id="title">
-						<Link href="documents" className="">
-							Circolari
-						</Link>
-					</div>
-					<div id="content">{children}</div>
 				</div>
 			</body>
 		</html>
