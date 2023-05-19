@@ -19,7 +19,7 @@ export default function RootLayout({
 			<body className="bg-[#FEFEFE] h-screen">
 				<div id="main" className="flex flex-col h-screen">
 					<div id="titleBar" className="bg-sky-700  text-[#F5F5F5] h-[15%] flex flex-row justify-center space-x-9 text-5xl">
-						<Link href="news" className="my-auto">
+						<Link href="getDocs" className="my-auto">
 							News
 						</Link>
 
